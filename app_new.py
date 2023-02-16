@@ -101,6 +101,6 @@ def update_sales_graph(n):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
     #changed by myself
     #app.run_server(debug=True, port=8023, use_reloader=False)
