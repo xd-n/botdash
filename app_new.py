@@ -58,7 +58,7 @@ app.layout = html.Div([
 
     html.Div([
         dcc.Graph(id='uv-graph', figure=px.line(uv_data, x='date', y='uv', title='Unique Viewers')),
-        dcc.Graph(id='inventory-graph', figure=px.line(inventory_data, x='date', y='inventory', title='Inventory'))
+        dcc.Graph(id='inventory-graph', figure=px.bar(inventory_data, x='date', y='inventory', title='Inventory'))
     ], className='row'),
 
     html.Div([
