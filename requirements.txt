@@ -9,3 +9,4 @@ dash-auth
 pathlib
 datetime
 lightgbm
+statsmodels
